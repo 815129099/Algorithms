@@ -26,6 +26,7 @@ public class FixedCapacityQueueTest {
         FixedCapacityQueue queue = new FixedCapacityQueue(10);
         for(int i = 0;i<10;i++){
             queue.enqueue(i);
+
         }
         Iterator iterator = queue.iterator();
         while (iterator.hasNext()){
